@@ -1,0 +1,67 @@
+.container {
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 2px 16px;
+}
+#big-number {
+  font-size:150px;
+  color: aqua;
+  text-align:center;
+  
+}
+
+.event-which{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: blue;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  width: 30%;
+  height: 100px;
+ 
+  
+    
+  }
+  .event-code {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: blue;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    
+    transition: 0.3s;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 30%;
+    height: 100px;
+      
+    }
+
+  .event-key {
+      display: flex;
+      justify-content: space-around;
+      flex-direction: column;
+      align-items: center;
+      color: blue;
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+      transition: 0.3s;
+      background-repeat: no-repeat;
+      background-position: 50% 50%;
+      background-size: cover;
+      width: 30%;
+      height: 100px;
+        
+      }
+
+  .event-which .event-code .event-key h6 {
+    
+  }
+
+  
